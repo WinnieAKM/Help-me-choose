@@ -1,20 +1,40 @@
-body {
+body
+{
+  #grad1
+    height: 200px;
+    background-image: linear-gradient(DarkSlateBlue, NavajoWhite);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 h1 {
-  font-weight: lighter;
+
+  font-family: "Impact", sans-serif;
   font-size: 40px;
-  letter-spacing: 2px;
-  margin-bottom: 0px;
+  background: -webkit-linear-gradient(White, PeachPuff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 5px;
+  margin-bottom: 70px;
+}
+
+h2 {
+
+  font-family: "Impact", sans-serif;
+  font-size: 50px;
+  font-style: oblique;
+  background: -webkit-linear-gradient(GoldenRod, Cornsilk);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 5px;
+  margin-bottom: 70px;
 }
 
 .inputSection {
-  margin: 50px 0px 80px 0px;
+  margin: 70px 0px 80px 0px;
   width: 400px;
 }
 
@@ -25,6 +45,11 @@ h1 {
 }
 
 input {
+  background-color: SlateBlue;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: NavajoWhite;
+  font-size: 15px;
+  border-radius: 12px;
   margin-top: 10px;
 }
 
@@ -32,10 +57,27 @@ input {
   margin-top: 10px;
 }
 
+button {
+ background-color: SlateBlue;
+ border: none;
+ color: NavajoWhite;
+ padding: 15px 32px;
+ margin-top: 0px;
+ margin-bottom: 40px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-weight:lighter;
+ font-size: 20px;
+ border-radius: 30%;
+}
+
 .resultSection {
   height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 35px
+  color: NavajoWhite;
+  font-size: 50px;
+  font-family: "Lucida Console", Monaco, monospace;
 }

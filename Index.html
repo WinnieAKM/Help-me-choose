@@ -9,9 +9,9 @@
     <h1>Help me choose between...</h1>
     <div class="inputSection">
     <div class="inputs">
-      <input placeholder="Something"></input>
+      <input placeholder="Something..."></input>
     </div>
-    <button class="addOption">Add</button>
+    <button class="addOption">+</button>
     </div>
     <div class="resultSection"></div>
     <button class="submit">Go!</button>
@@ -30,7 +30,7 @@
         var options = []
         var submit = function() {
           $('.inputSection').hide()
-          $('.resultSection').css('display' , 'flex')
+          $('.resultSection').css('display', 'flex')
           $('input').each(function() {
             options.push($(this).val())
           })
