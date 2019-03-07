@@ -7,34 +7,27 @@ body
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 300px
 }
 
 h1 {
 
-  font-family: "Impact", sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 40px;
-  background: -webkit-linear-gradient(White, PeachPuff);
+  background: -webkit-linear-gradient(White, SlateBlue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: 5px;
-  margin-bottom: 70px;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
 }
 
-h2 {
-
-  font-family: "Impact", sans-serif;
-  font-size: 50px;
-  font-style: oblique;
-  background: -webkit-linear-gradient(GoldenRod, Cornsilk);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: 5px;
-  margin-bottom: 70px;
+h3 {
+  font-size: 50px
 }
 
 .inputSection {
-  margin: 70px 0px 80px 0px;
+  margin: 10px 0px 80px 0px;
   width: 400px;
 }
 
@@ -61,15 +54,32 @@ button {
  background-color: SlateBlue;
  border: none;
  color: NavajoWhite;
- padding: 15px 32px;
+ padding: 5px 10px;
  margin-top: 0px;
- margin-bottom: 40px;
+ margin-bottom: 0px;
  text-align: center;
  text-decoration: none;
  display: inline-block;
  font-weight:lighter;
  font-size: 20px;
  border-radius: 30%;
+}
+
+button2 {
+background-color: SlateBlue;
+border: none;
+color: NavajoWhite;
+padding: 25px 15px;
+margin-top: 0px;
+margin-bottom: 0px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-weight: lighter;
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 20px;
+border-radius: 30%;
+cursor: pointer;
 }
 
 .resultSection {
@@ -79,5 +89,6 @@ button {
   align-items: center;
   color: NavajoWhite;
   font-size: 50px;
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-bottom: 0px
 }
